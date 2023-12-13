@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+body {
+  font-family: Hedvig Letters Sans, Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 45vh;
+}
+
+.topSide {
+  position: relative;
+  display: flex;
+  height: 45vh;
+}
+.topSide::before {
+  content: "";
+  background-color: rgba(20, 16, 16, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+.topSide img {
+  height: auto;
+  width: 100%;  
+}
+.topSideText {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 33%;
+  right: 33%;
+  align-items: center;
+  color: whitesmoke;
+  z-index: 1;
+  line-height: 1.3em;
+}
+#HeavyFont {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#LightFont {
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.DownloadGallery {
+  background-color: rgb(47, 176, 219);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.DownloadNow {
+  background-color: deeppink;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 11px;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-right: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: bolder;
+}
+.Bootstrap {
+  background-color: transparent;
+  border-color: transparent;
+  border: 0cm;
+  font-size: 11px;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-weight: bolder;
+}
+
+.Downside {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1em;
+  justify-content: center;
+  height: 55vh;
+  line-height: 1%;
+}
+.ButtonOptions{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#Tags {
+  font-size: 33px;
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+
+#All {
+  background-color: rgb(14, 130, 169);
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+#Beautiful,
+#Creative,
+#Cool,
+#Awesome {
+  background-color: white;
+  border: rgb(14, 130, 169) solid 1px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(14, 130, 169);
+}
+.Pictures {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.gallery1 {
+  display: flex;
+}
+.gallery2 {
+  display: flex; 
+}
+#image1, #image2,
+#image3,
+#image4,
+#image5 {
+  width: 140px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  max-width: 120px;
+  max-height: 70px;
+}
+#image1 {
+  height: 90px;
+}
+#image5 {
+  margin-top: 0px;
+}
+#image4 {
+  height: 100px;
+}
+#image2,
+#image5 {
+  height: 90px;
+}
+#image3 {
+  height: 82px;
+}
